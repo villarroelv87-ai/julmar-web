@@ -1,0 +1,94 @@
+{
+  "FLOTA ARRENDADA ": [
+    {
+      "Patente ": "SVZV-68",
+      "VIN": "VF631S35XPD001522",
+      "HRS ACTUAL": 0,
+      "MODELO ": "K480",
+      "MARCA ": "RENAULT",
+      "DESCRIPCION": "ALJIBE 30.000 LTS",
+      "A\u00d1O": 2023
+    },
+    {
+      "Patente ": "KXSP-50",
+      "VIN": "VF631N154JD000152",
+      "HRS ACTUAL": 0,
+      "MODELO ": "K460",
+      "MARCA ": "RENAULT",
+      "DESCRIPCION": "ALJIBE 20.000 LTS",
+      "A\u00d1O": 2019
+    },
+    {
+      "Patente ": "SXFD44",
+      "VIN": "VF631N158 PD000499",
+      "HRS ACTUAL": 0,
+      "MODELO ": "K460",
+      "MARCA ": "RENAULT",
+      "DESCRIPCION": "ALJIBE 20.000 LTS",
+      "A\u00d1O": 2023
+    },
+    {
+      "Patente ": "PSSZ-12",
+      "VIN": "1BZ310LAKMC004217",
+      "HRS ACTUAL": 2642,
+      "MODELO ": "310L",
+      "MARCA ": "JOHN DEERE ",
+      "DESCRIPCION": "310L",
+      "A\u00d1O": 2021
+    },
+    {
+      "Patente ": "RVKL-26",
+      "VIN": "1BZ310LAVNC007155",
+      "HRS ACTUAL": 1896,
+      "MODELO ": "310L",
+      "MARCA ": "JOHN DEERE ",
+      "DESCRIPCION": "310L",
+      "A\u00d1O": 2023
+    },
+    {
+      "Patente ": "RVKG-81",
+      "VIN": "1BZ310LALNC007790",
+      "HRS ACTUAL": 917,
+      "MODELO ": "310L",
+      "MARCA ": "JOHN DEERE ",
+      "DESCRIPCION": "310L",
+      "A\u00d1O": 2024
+    },
+    {
+      "Patente ": "PGTT-13",
+      "VIN": "CAT0962/AMTN00900",
+      "HRS ACTUAL": 0,
+      "MODELO ": "962L",
+      "MARCA ": "CATERPILLA ",
+      "DESCRIPCION": "CARGADOR FRONTAL, CAPACIDAD 4,4 M3",
+      "A\u00d1O": 2020
+    },
+    {
+      "Patente ": "RBBS-16",
+      "VIN": "1DW744LXEMD709918",
+      "HRS ACTUAL": 9467,
+      "MODELO ": "744L",
+      "MARCA ": "JOHN DEERE ",
+      "DESCRIPCION": "CARGADOR FRONTAL, CAPACIDAD 4,5 M3",
+      "A\u00d1O": 2021
+    },
+    {
+      "Patente ": "PJHT-12",
+      "VIN": "1BZ310LAPKD002814",
+      "HRS ACTUAL": 5366,
+      "MODELO ": "310L",
+      "MARCA ": "JOHN DEERE ",
+      "DESCRIPCION": "RETROEXCAVADORA",
+      "A\u00d1O": 2021
+    },
+    {
+      "Patente ": "RDVV-60",
+      "VIN": "1BZ310LAHMC005859",
+      "HRS ACTUAL": 2627,
+      "MODELO ": "310L",
+      "MARCA ": "JOHN DEERE ",
+      "DESCRIPCION": "RETROEXCAVADORA",
+      "A\u00d1O": 2022
+    }
+  ]
+}

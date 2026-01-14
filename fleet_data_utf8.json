@@ -1,0 +1,207 @@
+{
+  "FLOTA PROPIA": [
+    {
+      "Equipo ": "JM-01",
+      "Patente ": "RVKL-25",
+      "VIN": "1BZ310LAVNC007415",
+      "HRS ACTUAL": 1465.0,
+      "MODELO ": "310L",
+      "MARCA ": "JOHN DEERE",
+      "DESCRIPCION": "RETROEXCAVADORA",
+      "A\u00d1O": 2023.0
+    },
+    {
+      "Equipo ": "JM-02",
+      "Patente ": "SYPW-62",
+      "VIN": "1BZ310LATPC009225",
+      "HRS ACTUAL": 174.0,
+      "MODELO ": "310L",
+      "MARCA ": "JOHN DEERE",
+      "DESCRIPCION": "RETROEXCAVADORA",
+      "A\u00d1O": 2024.0
+    },
+    {
+      "Equipo ": "JM-03",
+      "Patente ": "TFWH-20",
+      "VIN": "1BZ310LATPC009404",
+      "HRS ACTUAL": 328.0,
+      "MODELO ": "310L",
+      "MARCA ": "JOHN DEERE",
+      "DESCRIPCION": "RETROEXCAVADORA",
+      "A\u00d1O": 2024.0
+    },
+    {
+      "Equipo ": "JM-04",
+      "Patente ": "RVKG-80",
+      "VIN": "1BZ310LAHNC007385",
+      "HRS ACTUAL": 1132.0,
+      "MODELO ": "310L",
+      "MARCA ": "JOHN DEERE",
+      "DESCRIPCION": "RETROEXCAVADORA",
+      "A\u00d1O": 2023.0
+    },
+    {
+      "Equipo ": "JM-05",
+      "Patente ": "JRVF-98",
+      "VIN": "1BZ310LAVGC000015",
+      "HRS ACTUAL": 5555.0,
+      "MODELO ": "310L",
+      "MARCA ": "JOHN DEERE",
+      "DESCRIPCION": "RETROEXCAVADORA",
+      "A\u00d1O": 2017.0
+    },
+    {
+      "Equipo ": "JM-06",
+      "Patente ": "PHFY-24",
+      "VIN": "1BZ310LAAKD002853",
+      "HRS ACTUAL": 945.0,
+      "MODELO ": "310L",
+      "MARCA ": "JOHN DEERE",
+      "DESCRIPCION": "RETROEXCAVADORA",
+      "A\u00d1O": 2021.0
+    },
+    {
+      "Equipo ": "JM-07",
+      "Patente ": "PYCS-18",
+      "VIN": "1BZ310LAVMC005047",
+      "HRS ACTUAL": 706.0,
+      "MODELO ": "310L",
+      "MARCA ": "JOHN DEERE",
+      "DESCRIPCION": "RETROEXCAVADORA",
+      "A\u00d1O": 2021.0
+    },
+    {
+      "Equipo ": "JM-08",
+      "Patente ": "PZJH-81",
+      "VIN": "1BZ310LAAMC005311",
+      "HRS ACTUAL": 355.0,
+      "MODELO ": "310L",
+      "MARCA ": "JOHN DEERE",
+      "DESCRIPCION": "RETROEXCAVADORA",
+      "A\u00d1O": 2022.0
+    },
+    {
+      "Equipo ": "JM-09",
+      "Patente ": "SCBB-71",
+      "VIN": "1F9210GXLMD522402",
+      "HRS ACTUAL": 3633.0,
+      "MODELO ": "210GLC",
+      "MARCA ": "JOHN DEERE",
+      "DESCRIPCION": "EXCAVADORA",
+      "A\u00d1O": 2022.0
+    },
+    {
+      "Equipo ": "JM-10",
+      "Patente ": "TYBG-84",
+      "VIN": 602057,
+      "HRS ACTUAL": 275.0,
+      "MODELO ": "PC210",
+      "MARCA ": "KOMATSU",
+      "DESCRIPCION": "EXCAVADORA",
+      "A\u00d1O": 2024.0
+    },
+    {
+      "Equipo ": "JM-11",
+      "Patente ": "TPFD-82",
+      "VIN": "VF630N355TD000194",
+      "HRS ACTUAL": 0.0,
+      "MODELO ": "C440",
+      "MARCA ": "RENAULT ",
+      "DESCRIPCION": "ALJIBE 20.000 LTS",
+      "A\u00d1O": 2026.0
+    },
+    {
+      "Equipo ": "JM-12",
+      "Patente ": null,
+      "VIN": "MARTILLO PERCUTOR ",
+      "HRS ACTUAL": NaN,
+      "MODELO ": "MTM50T",
+      "MARCA ": null,
+      "DESCRIPCION": "MARTILLO ",
+      "A\u00d1O": NaN
+    }
+  ],
+  "FLOTA ARRENDADA ": [
+    {
+      "Patente ": "SVZV-68",
+      "VIN": "VF631S35XPD001522",
+      "HRS ACTUAL": NaN,
+      "MODELO ": "K480",
+      "MARCA ": "RENAULT",
+      "DESCRIPCION": "ALJIBE 30.000 LTS",
+      "A\u00d1O": 2023
+    },
+    {
+      "Patente ": "KXSP-50",
+      "VIN": "VF631N154JD000152",
+      "HRS ACTUAL": NaN,
+      "MODELO ": "K460",
+      "MARCA ": "RENAULT",
+      "DESCRIPCION": "ALJIBE 20.000 LTS",
+      "A\u00d1O": 2019
+    },
+    {
+      "Patente ": "SXFD44",
+      "VIN": "VF631N158 PD000499",
+      "HRS ACTUAL": NaN,
+      "MODELO ": "K460",
+      "MARCA ": "RENAULT",
+      "DESCRIPCION": "ALJIBE 20.000 LTS",
+      "A\u00d1O": 2023
+    },
+    {
+      "Patente ": "PSSZ-12",
+      "VIN": "1BZ310LAKMC004217",
+      "HRS ACTUAL": NaN,
+      "MODELO ": "310L",
+      "MARCA ": "JOHN DEERE ",
+      "DESCRIPCION": "310L",
+      "A\u00d1O": 2021
+    },
+    {
+      "Patente ": "RVKL-26",
+      "VIN": "1BZ310LAVNC007155",
+      "HRS ACTUAL": NaN,
+      "MODELO ": "310L",
+      "MARCA ": "JOHN DEERE ",
+      "DESCRIPCION": "310L",
+      "A\u00d1O": 2023
+    },
+    {
+      "Patente ": "RVKG-81",
+      "VIN": "1BZ310LALNC007790",
+      "HRS ACTUAL": NaN,
+      "MODELO ": "310L",
+      "MARCA ": "JOHN DEERE ",
+      "DESCRIPCION": "310L",
+      "A\u00d1O": 2024
+    },
+    {
+      "Patente ": "PGTT-13",
+      "VIN": "CAT0962/AMTN00900",
+      "HRS ACTUAL": NaN,
+      "MODELO ": "962L",
+      "MARCA ": "CATERPILLA ",
+      "DESCRIPCION": "CARGADOR FRONTAL, CAPACIDAD 4,4 M3",
+      "A\u00d1O": 2020
+    },
+    {
+      "Patente ": "RBBS-16",
+      "VIN": "1DW744LXEMD709918",
+      "HRS ACTUAL": NaN,
+      "MODELO ": "744L",
+      "MARCA ": "JOHN DEERE ",
+      "DESCRIPCION": "CARGADOR FRONTAL, CAPACIDAD 4,5 M3",
+      "A\u00d1O": 2021
+    },
+    {
+      "Patente ": "PJ-HT-12",
+      "VIN": "1BZ310LAPKD002814",
+      "HRS ACTUAL": NaN,
+      "MODELO ": "310L",
+      "MARCA ": "JOHN DEERE ",
+      "DESCRIPCION": "RETROEXCAVADORA",
+      "A\u00d1O": 2021
+    }
+  ]
+}
