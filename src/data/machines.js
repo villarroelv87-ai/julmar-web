@@ -64,7 +64,9 @@ export const machines = [
         description: "Excavación de alto rendimiento y estabilidad en terreno.",
         image: "/machinery/komatsu-pc210lc/main-site-v2.jpg",
         gallery: [
-            "/machinery/komatsu-pc210lc/detail-1-new.jpg"
+            "/machinery/komatsu-pc210lc/detail-1-new.jpg",
+            "/machinery/komatsu-pc210lc/gallery-1.jpg",
+            "/machinery/komatsu-pc210lc/gallery-2.jpg"
         ],
         features: ["Bajo consumo de combustible", "Cabina ROPS/FOPS"],
         specs: { "Peso Operativo": "22,000 kg", "Capacidad Balde": "1.2 m³" }
@@ -77,7 +79,9 @@ export const machines = [
         description: "Excavación pesada y construcción.",
         image: "/machinery/jd-210g/main-v2.jpg",
         gallery: [
-            "/machinery/jd-210g/detail-site-v3.jpg"
+            "/machinery/jd-210g/detail-site-v3.jpg",
+            "/machinery/jd-210g/gallery-1.png",
+            "/machinery/jd-210g/gallery-2.png"
         ],
         features: ["Modo de potencia Powerwise III", "Monitor LCD multilingüe"],
         specs: { "Potencia": "159 hp", "Peso Operativo": "22,000 kg" }
