@@ -74,7 +74,7 @@ export const machines = [
         description: "Excavación pesada y construcción.",
         image: "/machinery/jd-210g/main-v2.jpg",
         gallery: [
-            "/machinery/jd-210g/detail-site-v2.png"
+            "/machinery/jd-210g/detail-site-v3.jpg"
         ],
         features: ["Modo de potencia Powerwise III", "Monitor LCD multilingüe"],
         specs: { "Potencia": "159 hp", "Peso Operativo": "22,000 kg" }
