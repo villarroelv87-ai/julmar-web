@@ -4,8 +4,17 @@ import { motion } from 'framer-motion';
 const Hero = () => {
     return (
         <section id="hero" className="h-screen bg-gray-900 text-white flex items-center justify-center relative overflow-hidden">
-            {/* Imagen de fondo a todo color */}
-            <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url("/hero-bg-final.png")' }}></div>
+            {/* Imagen de fondo optimizada: JPG ligero para móvil, PNG alta calidad para PC */}
+            <div className="absolute inset-0">
+                <picture>
+                    <source media="(min-width: 768px)" srcSet="/hero-bg-final.png" />
+                    <img
+                        src="/hero-bg-final.jpg"
+                        alt="Fondo Maquinaria"
+                        className="w-full h-full object-cover"
+                    />
+                </picture>
+            </div>
 
             {/* Overlay oscuro para contraste (Gradiente profesional) */}
             <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-black/80"></div>
