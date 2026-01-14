@@ -5,8 +5,11 @@ export const machines = [
         category: "Retroexcavadoras",
         capacity: "Peso 6.770 kg | Potencia 87 hp",
         description: "Versatilidad máxima para excavación y zanjas en obras urbanas.",
-        image: "/machinery/jd-310l/main-site-v2.jpg",
+        image: "/machinery/jd-310l/main-site-v3.png",
         gallery: [
+            "/machinery/jd-310l/main-site-v2.jpg",
+            "/machinery/jd-310l/gallery-1.jpg",
+            "/machinery/jd-310l/gallery-2.jpg",
             "/machinery/jd-310l/detail-1.jpg",
             "/machinery/jd-310l/detail-2.jpg",
             "/machinery/jd-310l/detail-3.jpg"
@@ -120,6 +123,10 @@ export const machines = [
         capacity: "Para Excavadora 20-25 Ton",
         description: "Demolición y rotura de rocas de alta eficiencia.",
         image: "/machinery/attachments/martillo-user-2.png",
+        gallery: [
+            "/machinery/attachments/gallery-1.jpg",
+            "/machinery/attachments/gallery-2.png"
+        ],
         fit: "contain",
         specs: { "Compatibilidad": "20-25 Ton", "Aplicación": "Demolición" }
     }
