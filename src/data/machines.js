@@ -22,7 +22,7 @@ export const machines = [
         description: "Mayor potencia y precisión para trabajos exigentes.",
         image: "/machinery/jd-310p/main-site-v2.jpg",
         gallery: [
-            "/machinery/jd-310p/detail-1-new.jpg"
+            "/machinery/jd-310p/detail-site-v2.jpg"
         ],
         features: ["Control de precisión", "Mayor capacidad de levante"],
         specs: { "Potencia": "99 hp", "Peso Operativo": "7,100 kg" }
