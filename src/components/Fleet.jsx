@@ -136,21 +136,21 @@ const Fleet = ({ onQuote = () => { } }) => {
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
                         onClick={closeModal}
-                        className="fixed inset-0 z-[60] flex items-center justify-center p-4 bg-julmar-dark/90 backdrop-blur-sm"
+                        className="fixed inset-0 z-[60] flex items-center justify-center p-0 md:p-4 bg-julmar-dark/95 backdrop-blur-sm overflow-y-auto"
                     >
                         <motion.div
                             initial={{ scale: 0.95, opacity: 0 }}
                             animate={{ scale: 1, opacity: 1 }}
                             exit={{ scale: 0.95, opacity: 0 }}
                             onClick={(e) => e.stopPropagation()}
-                            className="bg-white rounded-3xl overflow-hidden max-w-4xl w-full max-h-[90vh] flex flex-col shadow-2xl relative"
+                            className="bg-white rounded-none md:rounded-3xl overflow-hidden w-full max-w-4xl min-h-screen md:min-h-0 md:max-h-[90vh] flex flex-col shadow-2xl relative"
                         >
                             {/* Close Button */}
                             <button
                                 onClick={closeModal}
-                                className="absolute top-4 right-4 z-10 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-colors"
+                                className="absolute top-4 right-4 z-50 bg-black/60 hover:bg-black/80 text-white p-3 rounded-full transition-colors shadow-xl"
                             >
-                                <X size={24} />
+                                <X size={28} />
                             </button>
 
                             {/* Image Section */}
