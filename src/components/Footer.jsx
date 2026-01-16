@@ -67,7 +67,13 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="pt-8 border-t border-gray-800 text-center md:text-left flex flex-col md:flex-row justify-between items-center text-gray-600 text-xs">
+                <div className="border-t border-gray-800 pt-8 mt-8 pb-4">
+                    <p className="text-gray-500 text-xs text-center leading-relaxed">
+                        <span className="font-bold text-gray-400">Cobertura Regional:</span> La Serena • Coquimbo • Ovalle • Andacollo • Vicuña • Salamanca • Illapel • Vallenar • Copiapó
+                    </p>
+                </div>
+
+                <div className="border-t border-gray-800 pt-8 text-center md:text-left flex flex-col md:flex-row justify-between items-center text-gray-600 text-xs">
                     <p>© {new Date().getFullYear()} Maquinarias Julmar SpA. Todos los derechos reservados.</p>
                     <div className="flex gap-4 mt-4 md:mt-0">
                         <span>Aviso Legal</span>
