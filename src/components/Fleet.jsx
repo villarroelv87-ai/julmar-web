@@ -143,7 +143,7 @@ const Fleet = ({ onQuote = () => { } }) => {
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
                         onClick={closeModal}
-                        className="fixed inset-0 z-[60] flex items-center justify-center p-0 md:p-4 bg-julmar-dark/95 backdrop-blur-sm overflow-y-auto"
+                        className="fixed inset-0 z-[110] flex items-center justify-center p-0 md:p-4 bg-julmar-dark/95 backdrop-blur-sm overflow-y-auto"
                     >
                         <motion.div
                             initial={{ scale: 0.95, opacity: 0 }}
@@ -195,7 +195,7 @@ const Fleet = ({ onQuote = () => { } }) => {
                             </div>
 
                             {/* Info Section with Tabs */}
-                            <div className="p-8 bg-white flex-1 overflow-y-auto">
+                            <div className="p-8 bg-white flex-1 md:overflow-y-auto">
                                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
                                     <div>
                                         <span className="text-julmar-green font-bold uppercase tracking-widest text-xs mb-2 block">{selectedMachine.category}</span>
