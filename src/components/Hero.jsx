@@ -23,25 +23,25 @@ const Hero = () => {
                 <motion.span
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="text-julmar-green font-bold text-xl mb-4 block"
+                    className="text-julmar-green font-bold text-xl md:text-2xl mb-4 block tracking-wider"
                 >
-                    EXPERTOS EN MAQUINARIA PESADA
+                    SOCIO ESTRATÉGICO EN TERRENO
                 </motion.span>
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.2 }}
-                    className="text-5xl md:text-7xl font-black mb-6"
+                    className="text-5xl md:text-7xl font-black mb-6 leading-tight"
                 >
-                    MAQUINARIAS <span className="text-julmar-green">JULMAR</span>
+                    CONTINUIDAD <span className="text-julmar-green">OPERACIONAL</span>
                 </motion.h2>
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4 }}
-                    className="text-xl max-w-2xl mx-auto mb-8 text-gray-300"
+                    className="text-xl md:text-2xl max-w-3xl mx-auto mb-10 text-gray-300 font-light"
                 >
-                    Soluciones integrales para minería, construcción y obras viales en toda la región.
+                    Gestión de activos y arriendo de maquinaria con estándares de la Gran Minería.
                 </motion.p>
             </div>
         </section>

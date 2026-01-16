@@ -4,18 +4,18 @@ import { Truck, Pickaxe, Tractor } from 'lucide-react';
 const services = [
     {
         icon: <Truck size={40} />,
-        title: "Vialidad y Caminos",
-        description: "Construcción, mantención y reparación de caminos. Supresión de polvo con camiones aljibe y movimiento de tierra para infraestructuras viales."
+        title: "Infraestructura Vial",
+        description: "Gestión integral de caminos industriales y públicos. Cumplimiento normativo, supresión de polvo y movimiento de tierras de alta precisión."
     },
     {
         icon: <Pickaxe size={40} />,
-        title: "Minería",
-        description: "Apoyo en faenas mineras con maquinaria pesada certificada. Cumplimiento de altos estándares de seguridad y operatividad continua."
+        title: "Minería y Continuidad",
+        description: "Flota certificada con estándares mineros. Enfoque en disponibilidad mecánica (KPIs) y seguridad operativa (HSE) para faenas críticas."
     },
     {
         icon: <Tractor size={40} />,
-        title: "Agropecuario",
-        description: "Soluciones para el agro: preparación de terrenos, zanjas de riego, limpieza de canales y transporte de agua para cultivos."
+        title: "Proyectos Hídricos",
+        description: "Desarrollo de infraestructura hídrica eficiente. Transporte de agua industrial, limpieza de canales y preparación de terrenos productivos."
     }
 ];
 

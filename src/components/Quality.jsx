@@ -1,23 +1,23 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Wrench, Award, HardHat, CheckCircle2 } from 'lucide-react';
+import { Wrench, Award, HardHat, CheckCircle2, Leaf } from 'lucide-react';
 
 const Quality = () => {
     const features = [
         {
-            icon: <Wrench size={40} />,
-            title: "Mantención Preventiva",
-            description: "Nuestra flota cuenta con un riguroso programa de mantenimiento para asegurar un 100% de operatividad en faena."
-        },
-        {
-            icon: <HardHat size={40} />,
-            title: "Operadores Certificados",
-            description: "Personal altamente calificado y con vasta experiencia en proyectos mineros, viales y agrícolas."
-        },
-        {
             icon: <Award size={40} />,
-            title: "Estándares de Seguridad",
-            description: "Cumplimos con todas las normativas y certificaciones exigidas por la industria para garantizar obras seguras."
+            title: "Cultura Cero Daño",
+            description: "Seguridad intransable. Nuestros operadores y equipos cumplen con los exigentes protocolos de la Gran Minería."
+        },
+        {
+            icon: <Wrench size={40} />,
+            title: "Disponibilidad Garantizada",
+            description: "Mantenimiento preventivo riguroso para asegurar la continuidad operacional y evitar detenciones no programadas."
+        },
+        {
+            icon: <Leaf size={40} />,
+            title: "Compromiso Ambiental",
+            description: "Gestión eficiente de recursos y residuos. Operamos con conciencia del impacto en el entorno y comunidades."
         }
     ];
 
@@ -25,11 +25,8 @@ const Quality = () => {
         <section className="py-20 bg-gray-50 relative overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="text-center mb-16">
-                    <span className="text-julmar-green font-bold uppercase tracking-widest mb-2 block text-sm">Por qué elegirnos</span>
-                    <h2 className="text-3xl md:text-5xl font-black text-julmar-dark mb-4">COMPROMISO DE CALIDAD</h2>
-                    <p className="text-gray-500 max-w-2xl mx-auto text-lg">
-                        En Maquinarias Julmar, no solo arrendamos equipos; entregamos confiabilidad y eficiencia para tu proyecto.
-                    </p>
+                    <span className="text-julmar-green font-bold uppercase tracking-widest mb-2 block text-sm">Estándar Corporativo</span>
+                    <h2 className="text-3xl md:text-5xl font-black text-julmar-dark mb-4">SEGURIDAD Y CONFIANZA</h2>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

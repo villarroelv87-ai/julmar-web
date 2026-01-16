@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { X, ChevronLeft, ChevronRight, Download } from 'lucide-react';
 
 import { machines } from '../data/machines';
 
@@ -60,6 +60,13 @@ const Fleet = ({ onQuote = () => { } }) => {
                         <span className="text-julmar-green font-bold uppercase tracking-widest mb-2 block text-xs md:text-sm">Catálogo 2026</span>
                         <h2 className="text-3xl md:text-5xl font-black text-julmar-dark">NUESTRA FLOTA</h2>
                     </div>
+                    <a
+                        href="#contacto"
+                        className="group flex items-center gap-2 bg-julmar-dark text-white px-6 py-3 rounded-xl font-bold hover:bg-julmar-green hover:text-julmar-dark transition-all duration-300 shadow-lg hover:shadow-julmar-green/20"
+                    >
+                        <Download size={20} className="group-hover:scale-110 transition-transform" />
+                        <span>Descargar Catálogo Completo</span>
+                    </a>
                 </div>
 
                 {/* Filter Tabs */}
