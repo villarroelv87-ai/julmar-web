@@ -24,7 +24,7 @@ const Navbar = () => {
                     {/* Logo */}
                     <a href="#" className="flex items-center gap-3 group">
                         <div className="relative">
-                            <img src="/logo-new.jpg" alt="Julmar Logo" className="h-16 md:h-20 w-auto object-contain transition-transform duration-300 group-hover:scale-105 rounded-2xl shadow-lg border border-white/20" />
+                            <img src="/logo-julmar.jpg" alt="Julmar Logo" className="h-16 md:h-20 w-auto object-contain transition-transform duration-300 group-hover:scale-105 rounded-2xl shadow-lg border border-white/20" />
                         </div>
                     </a>
 
@@ -98,7 +98,7 @@ const Navbar = () => {
                             ))}
                             <div className="pt-4">
                                 <a
-                                    href="tel:+56966240252"
+                                    href="tel:+56931052727"
                                     className="w-full bg-julmar-green text-julmar-dark text-center py-3 rounded-xl font-black uppercase tracking-wide block"
                                 >
                                     Llamar Ahora
