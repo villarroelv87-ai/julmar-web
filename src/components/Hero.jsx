@@ -10,7 +10,7 @@ const Hero = () => {
                     <source media="(max-width: 767px)" srcSet="/hero-movil.webp" type="image/webp" />
                     <source srcSet="/hero-bg-final.webp" type="image/webp" />
                     <img
-                        src="/hero-bg-final.png"
+                        src="/hero-bg-final.webp"
                         alt="Fondo Maquinaria"
                         className="w-full h-full object-cover"
                     />

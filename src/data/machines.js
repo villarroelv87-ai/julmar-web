@@ -5,14 +5,14 @@ export const machines = [
         category: "Retroexcavadoras",
         capacity: "Peso 6.770 kg | Potencia 87 hp",
         description: "Versatilidad máxima para excavación y zanjas en obras urbanas.",
-        image: "/machinery/jd-310l/main-site-v3.png",
+        image: "/machinery/jd-310l/main-site-v3.webp",
         gallery: [
-            "/machinery/jd-310l/main-site-v2.jpg",
-            "/machinery/jd-310l/gallery-1.jpg",
-            "/machinery/jd-310l/gallery-2.jpg",
-            "/machinery/jd-310l/detail-1.jpg",
-            "/machinery/jd-310l/detail-2.jpg",
-            "/machinery/jd-310l/detail-3.jpg"
+            "/machinery/jd-310l/main-site-v2.webp",
+            "/machinery/jd-310l/gallery-1.webp",
+            "/machinery/jd-310l/gallery-2.webp",
+            "/machinery/jd-310l/detail-1.webp",
+            "/machinery/jd-310l/detail-2.webp",
+            "/machinery/jd-310l/detail-3.webp"
         ],
         features: ["Brazo extensible", "Tracción 4x4"],
         specs: { "Potencia": "87 hp", "Peso Operativo": "6,770 kg" }
@@ -23,9 +23,9 @@ export const machines = [
         category: "Retroexcavadoras",
         capacity: "Peso 7.100 kg | Potencia 99 hp",
         description: "Mayor potencia y precisión para trabajos exigentes.",
-        image: "/machinery/jd-310p/main-site-v2.jpg",
+        image: "/machinery/jd-310p/main-site-v2.webp",
         gallery: [
-            "/machinery/jd-310p/detail-site-v2.jpg"
+            "/machinery/jd-310p/detail-site-v2.webp"
         ],
         features: ["Control de precisión", "Mayor capacidad de levante"],
         specs: { "Potencia": "99 hp", "Peso Operativo": "7,100 kg" }
@@ -36,9 +36,9 @@ export const machines = [
         category: "Camiones Aljibe",
         capacity: "Estanque 30.000 L | Potencia 480 HP",
         description: "Gran capacidad para riego industrial y transporte de agua.",
-        image: "/machinery/renault-k480/main-new.jpg",
+        image: "/machinery/renault-k480/main-new.webp",
         gallery: [
-            "/machinery/renault-k480/detail-1-new.jpg"
+            "/machinery/renault-k480/detail-1-new.webp"
         ],
         features: ["Tracción 8x4 para terrenos difíciles", "Sistema de riego automatizado"],
         specs: { "Potencia": "480 hp", "Capacidad Tanque": "30,000 L" }
@@ -49,9 +49,9 @@ export const machines = [
         category: "Camiones Aljibe",
         capacity: "Estanque 20.000 L | Potencia 460 HP",
         description: "Eficiencia y versatilidad para distribución de agua en faena.",
-        image: "/machinery/renault-k460/main-site-v2.jpg",
+        image: "/machinery/renault-k460/main-site-v2.webp",
         gallery: [
-            "/machinery/renault-k460/detail-1-user.jpg"
+            "/machinery/renault-k460/detail-1-user.webp"
         ],
         features: ["Tracción 6x4", "Barras de riego traseras"],
         specs: { "Potencia": "460 hp", "Capacidad Tanque": "20,000 L" }
@@ -62,11 +62,11 @@ export const machines = [
         category: "Excavadoras",
         capacity: "Balde 1.2 m³ | Peso 22 Ton",
         description: "Excavación de alto rendimiento y estabilidad en terreno.",
-        image: "/machinery/komatsu-pc210lc/main-site-v2.jpg",
+        image: "/machinery/komatsu-pc210lc/main-site-v2.webp",
         gallery: [
-            "/machinery/komatsu-pc210lc/detail-1-new.jpg",
-            "/machinery/komatsu-pc210lc/gallery-1.jpg",
-            "/machinery/komatsu-pc210lc/gallery-2.jpg"
+            "/machinery/komatsu-pc210lc/detail-1-new.webp",
+            "/machinery/komatsu-pc210lc/gallery-1.webp",
+            "/machinery/komatsu-pc210lc/gallery-2.webp"
         ],
         features: ["Bajo consumo de combustible", "Cabina ROPS/FOPS"],
         specs: { "Peso Operativo": "22,000 kg", "Capacidad Balde": "1.2 m³" }
@@ -77,11 +77,11 @@ export const machines = [
         category: "Excavadoras",
         capacity: "Peso ~22 Ton | Potencia 159 hp",
         description: "Excavación pesada y construcción.",
-        image: "/machinery/jd-210g/main-v2.jpg",
+        image: "/machinery/jd-210g/main-v2.webp",
         gallery: [
-            "/machinery/jd-210g/detail-site-v3.jpg",
-            "/machinery/jd-210g/gallery-1.png",
-            "/machinery/jd-210g/gallery-2.png"
+            "/machinery/jd-210g/detail-site-v3.webp",
+            "/machinery/jd-210g/gallery-1.webp",
+            "/machinery/jd-210g/gallery-2.webp"
         ],
         features: ["Modo de potencia Powerwise III", "Monitor LCD multilingüe"],
         specs: { "Potencia": "159 hp", "Peso Operativo": "22,000 kg" }
@@ -92,7 +92,7 @@ export const machines = [
         category: "Camiones Aljibe",
         capacity: "Estanque 20.000 L | Potencia 440 HP",
         description: "Distribución de agua potable o industrial.",
-        image: "/machinery/renault-c440/main-v2.png",
+        image: "/machinery/renault-c440/main-v2.webp",
         specs: { "Potencia": "440 hp", "Capacidad Tanque": "20,000 L" }
     },
     {
@@ -101,9 +101,9 @@ export const machines = [
         category: "Cargadores",
         capacity: "Balde 4.4 m³ | Potencia ~250 hp",
         description: "Carga de alto rendimiento y eficiencia de combustible.",
-        image: "/machinery/cat-962l/main-user.png",
+        image: "/machinery/cat-962l/main-user.webp",
         gallery: [
-            "/machinery/cat-962l/side-user.png"
+            "/machinery/cat-962l/side-user.webp"
         ],
         specs: { "Potencia": "250 hp", "Capacidad Balde": "4.4 m³" }
     },
@@ -113,10 +113,10 @@ export const machines = [
         category: "Cargadores",
         capacity: "Balde 4.5 m³ | Potencia ~315 hp",
         description: "Máxima productividad en movimiento de tierras.",
-        image: "/machinery/jd-744l/main-v2.jpg",
+        image: "/machinery/jd-744l/main-v2.webp",
         gallery: [
-            "/machinery/jd-744l/detail-1-v2.jpg",
-            "/machinery/jd-744l/detail-2-v2.jpg"
+            "/machinery/jd-744l/detail-1-v2.webp",
+            "/machinery/jd-744l/detail-2-v2.webp"
         ],
         specs: { "Potencia": "315 hp", "Capacidad Balde": "4.5 m³" }
     },
@@ -126,10 +126,10 @@ export const machines = [
         category: "Implementos",
         capacity: "Para Excavadora 20-25 Ton",
         description: "Demolición y rotura de rocas de alta eficiencia.",
-        image: "/machinery/attachments/martillo-user-2.png",
+        image: "/machinery/attachments/martillo-user-2.webp",
         gallery: [
-            "/machinery/attachments/gallery-1.jpg",
-            "/machinery/attachments/gallery-2.png"
+            "/machinery/attachments/gallery-1.webp",
+            "/machinery/attachments/gallery-2.webp"
         ],
         fit: "contain",
         specs: { "Compatibilidad": "20-25 Ton", "Aplicación": "Demolición" }

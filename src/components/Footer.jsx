@@ -8,7 +8,7 @@ const Footer = () => {
                     {/* Brand */}
                     <div>
                         <div className="mb-6">
-                            <img src="/logo-julmar.jpg" alt="Maquinarias Julmar" className="h-16 w-auto mb-4 rounded-lg bg-white p-1" />
+                            <img src="/logo-julmar.webp" alt="Maquinarias Julmar" className="h-16 w-auto mb-4 rounded-lg bg-white p-1" />
                             <p className="text-julmar-green text-sm font-bold uppercase tracking-widest mt-1">Socio Estratégico en Terreno</p>
                         </div>
                         <p className="text-gray-400 leading-relaxed text-sm">
