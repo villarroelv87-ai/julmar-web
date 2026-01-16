@@ -80,6 +80,7 @@ export const machines = [
         image: "/machinery/jd-210g/main-v3.webp",
         gallery: [
             "/machinery/jd-210g/gallery-1-final.webp",
+            "/machinery/jd-210g/gallery-3.webp",
             "/machinery/jd-210g/gallery-2.webp"
         ],
         features: ["Modo de potencia Powerwise III", "Monitor LCD multilingüe"],
