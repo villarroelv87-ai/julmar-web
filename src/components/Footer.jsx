@@ -1,5 +1,6 @@
 import React from 'react';
 import { ShieldCheck, Wrench, Clock, Leaf } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -89,10 +90,12 @@ const Footer = () => {
 
                 <div className="border-t border-gray-800 pt-8 text-center md:text-left flex flex-col md:flex-row justify-between items-center text-gray-600 text-xs">
                     <p>© {new Date().getFullYear()} Maquinarias Julmar SpA. Todos los derechos reservados.</p>
-                    <div className="flex gap-4 mt-4 md:mt-0">
-                        <span>Aviso Legal</span>
-                        <span>Privacidad</span>
-                        <span>Sostenibilidad</span>
+                    <div className="flex gap-4 mt-4 md:mt-0 items-center">
+                        <span className="text-gray-500 hover:text-white transition-colors cursor-pointer">Aviso Legal</span>
+                        <Link to="/politica-de-privacidad" className="bg-julmar-green text-julmar-dark px-4 py-1.5 rounded-full font-black text-xs hover:bg-[#7abd36] transition-transform hover:scale-105 shadow-md">
+                            Política de Privacidad
+                        </Link>
+                        <span className="text-gray-500 hover:text-white transition-colors cursor-pointer">Sostenibilidad</span>
                     </div>
                 </div>
             </div>

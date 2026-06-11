@@ -5,6 +5,8 @@ import MachineDetail from './pages/MachineDetail';
 import MixerFleet from './pages/MixerFleet';
 import LocalServicePage from './pages/LocalServicePage';
 import RetroexcavadoraLanding from './pages/RetroexcavadoraLanding';
+import Politica from './pages/Politica';
+import CookieBanner from './components/CookieBanner';
 import { Helmet } from 'react-helmet-async';
 
 function App() {
@@ -26,6 +28,7 @@ function App() {
         <Route path="/mixer" element={<MixerFleet />} />
         {/* Rutas SEO de Silo Local (Ej: /arriendo/excavadoras/en/coquimbo) */}
         <Route path="/arriendo/:serviceSlug/en/:citySlug" element={<LocalServicePage />} />
+        <Route path="/politica-de-privacidad" element={<Politica />} />
       </Routes>
 
       {/* Floating WhatsApp Button - Global */}
@@ -43,6 +46,9 @@ function App() {
           ¿Necesitas ayuda?
         </span>
       </a>
+
+      {/* Global Cookie Consent Banner */}
+      <CookieBanner />
     </div>
   );
 }

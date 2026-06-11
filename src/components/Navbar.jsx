@@ -50,6 +50,11 @@ const Navbar = () => {
             return;
         }
 
+        if (sectionId === 'privacidad') {
+            navigate('/politica-de-privacidad');
+            return;
+        }
+
         // Allow menu layout to update/close before scrolling on mobile
         setTimeout(() => {
             if (isHome) {
@@ -104,14 +109,15 @@ const Navbar = () => {
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex items-center space-x-8">
-                        {['Inicio', 'Flota', 'Servicios', 'Nosotros'].map((item) => {
+                        {['Inicio', 'Flota', 'Servicios', 'Nosotros', 'Privacidad'].map((item) => {
                             // Map generic names to specific IDs if needed
                             let targetId = item.toLowerCase().replace(' ', '-');
                             if (item === 'Inicio') targetId = 'hero';
                             if (item === 'Nosotros') targetId = 'nosotros';
                             if (item === 'Flota Mixer') targetId = 'mixer';
+                            if (item === 'Privacidad') targetId = 'privacidad';
 
-                            const isActive = isHome ? activeSection === item : (item === 'Flota Mixer' && location.pathname === '/mixer');
+                            const isActive = isHome ? activeSection === item : ((item === 'Flota Mixer' && location.pathname === '/mixer') || (item === 'Privacidad' && location.pathname === '/politica-de-privacidad'));
 
                             return (
                                 <button
@@ -155,14 +161,15 @@ const Navbar = () => {
                         className="md:hidden bg-julmar-dark/95 backdrop-blur-xl border-t border-gray-800 overflow-hidden"
                     >
                         <div className="px-4 py-8 space-y-4">
-                            {['Inicio', 'Flota', 'Servicios', 'Nosotros', 'Contacto'].map((item) => {
+                            {['Inicio', 'Flota', 'Servicios', 'Nosotros', 'Privacidad', 'Contacto'].map((item) => {
                                 let targetId = item.toLowerCase().replace(' ', '-');
                                 if (item === 'Inicio') targetId = 'hero';
                                 if (item === 'Nosotros') targetId = 'nosotros';
                                 if (item === 'Contacto') targetId = 'contacto';
                                 if (item === 'Flota Mixer') targetId = 'mixer';
+                                if (item === 'Privacidad') targetId = 'privacidad';
 
-                                const isActive = isHome ? activeSection === item : (item === 'Flota Mixer' && location.pathname === '/mixer');
+                                const isActive = isHome ? activeSection === item : ((item === 'Flota Mixer' && location.pathname === '/mixer') || (item === 'Privacidad' && location.pathname === '/politica-de-privacidad'));
 
                                 return (
                                     <button
