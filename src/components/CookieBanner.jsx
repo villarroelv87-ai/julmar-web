@@ -26,7 +26,7 @@ const CookieBanner = () => {
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 md:gap-8">
                 <div className="flex-1 text-sm md:text-base text-gray-300">
                     <p>
-                        <strong>Aviso de Cookies:</strong> Utilizamos cookies propias y de terceros para mejorar tu experiencia de navegación, analizar el rendimiento del sitio y optimizar nuestros servicios. Al hacer clic en "Aceptar", consientes el uso de estas tecnologías de acuerdo con nuestra{' '}
+                        <strong>Aviso de Cookies:</strong> Utilizamos cookies propias para mejorar tu experiencia de navegación, analizar el rendimiento del sitio y optimizar nuestros servicios. Al hacer clic en "Aceptar", consientes el uso de estas tecnologías de acuerdo con nuestra{' '}
                         <Link to="/politica-de-privacidad" className="text-julmar-green hover:text-white transition-colors font-bold underline decoration-julmar-green/50 underline-offset-2">
                             Política de Privacidad
                         </Link>.

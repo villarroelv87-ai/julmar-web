@@ -36,6 +36,7 @@ const Politica = () => {
                             <li><strong>Datos Comerciales:</strong> Nombre de la empresa a la que representa, cargo (si aplica), y detalles específicos sobre la maquinaria de su interés.</li>
                             <li><strong>Datos de Navegación:</strong> A través de herramientas analíticas (cookies), podemos recopilar datos anónimos como su dirección IP truncada, tipo de navegador, tiempo de visita y páginas consultadas, para mejorar el rendimiento técnico de la web.</li>
                         </ul>
+                        <p>Este sitio web no está dirigido a menores de edad y no recopila deliberadamente información personal de personas menores de 18 años.</p>
 
                         <h2 className="text-2xl font-bold text-julmar-dark mt-10 mb-4">3. ¿Para Qué Propósitos Utilizamos Sus Datos? (Finalidad)</h2>
                         <p>Los datos que usted nos proporciona voluntariamente son utilizados <strong>exclusivamente</strong> para las siguientes finalidades ligadas al giro de nuestra empresa:</p>
@@ -59,18 +60,18 @@ const Politica = () => {
 
                         <h3 className="text-xl font-bold text-julmar-dark mt-6 mb-3">B. Correos Electrónicos</h3>
                         <ul className="list-disc pl-6 mb-6 space-y-2">
-                            <li>Si usted nos contacta mediante enlaces <code>mailto</code> o al correo oficial de la empresa, los datos proporcionados se almacenarán en nuestros servidores de correo bajo estrictos protocolos de acceso.</li>
+                            <li>Si usted nos contacta mediante enlaces <code>mailto</code> o al correo oficial de la empresa, los datos proporcionados serán gestionados mediante servicios de correo electrónico utilizados por la empresa y accesibles únicamente por personal autorizado.</li>
                             <li>No envíe copias de documentos de identidad no solicitados o información bancaria no encriptada a través del cuerpo de un correo electrónico regular.</li>
                         </ul>
 
                         <h2 className="text-2xl font-bold text-julmar-dark mt-10 mb-4">5. Medidas de Seguridad y Protección de la Información</h2>
-                        <p>El sitio web de <strong>Maquinarias Julmar SpA</strong> cuenta con protocolos de seguridad técnicos y administrativos (Cifrado HTTPS/TLS, despliegue en infraestructura segura, protección contra inyecciones de código y políticas de contraseñas para administradores) orientados a evitar la pérdida, mal uso, alteración, acceso no autorizado o robo de los datos facilitados. Sin embargo, la transmisión de datos por Internet nunca es 100% segura, por lo que el usuario asume el riesgo inherente de las plataformas de telecomunicación.</p>
+                        <p>El sitio web de <strong>Maquinarias Julmar SpA</strong> cuenta con protocolos de seguridad técnicos y administrativos (Cifrado HTTPS/TLS, despliegue en infraestructura segura, medidas destinadas a reducir riesgos de ataques comunes contra aplicaciones web y políticas de contraseñas para administradores) orientados a evitar la pérdida, mal uso, alteración, acceso no autorizado o robo de los datos facilitados. Sin embargo, la transmisión de datos por Internet nunca es 100% segura, por lo que el usuario asume el riesgo inherente de las plataformas de telecomunicación.</p>
 
                         <h2 className="text-2xl font-bold text-julmar-dark mt-10 mb-4">6. Uso de Cookies</h2>
                         <p>Nuestro sitio web puede utilizar "cookies" (pequeños archivos de texto almacenados en su navegador) para facilitar la navegación y ofrecer estadísticas de tráfico. Usted puede configurar su navegador en cualquier momento para rechazar estas cookies o ser avisado cuando se envían. Bloquearlas no afectará su capacidad para leer el catálogo de maquinarias, pero podría limitar ciertas funciones analíticas de la página.</p>
 
                         <h2 className="text-2xl font-bold text-julmar-dark mt-10 mb-4">7. Retención de Datos</h2>
-                        <p>La información recopilada será conservada únicamente durante el tiempo necesario para gestionar su cotización, mantener el registro histórico de operaciones comerciales en cumplimiento con las obligaciones tributarias/legales locales, o hasta que usted solicite su eliminación, tras lo cual será borrada de forma segura.</p>
+                        <p>La información recopilada será conservada únicamente durante el tiempo necesario para gestionar su cotización, mantener el registro histórico de operaciones comerciales para cumplir obligaciones legales y comerciales aplicables, o hasta que usted solicite su eliminación, tras lo cual será borrada de forma segura.</p>
 
                         <h2 className="text-2xl font-bold text-julmar-dark mt-10 mb-4">8. Derechos del Titular de los Datos</h2>
                         <p>Usted, como titular de los datos personales, tiene derecho en todo momento a:</p>
@@ -80,7 +81,7 @@ const Politica = () => {
                             <li><strong>Solicitar la eliminación</strong> de sus datos de nuestros registros comerciales.</li>
                             <li><strong>Oponerse</strong> a ser contactado para fines específicos no relacionados directamente con una cotización activa.</li>
                         </ul>
-                        <p>Para ejercer cualquiera de estos derechos, por favor dirija un correo electrónico al encargado de Privacidad a través de nuestro correo de contacto oficial publicado en el sitio.</p>
+                        <p>Para ejercer cualquiera de estos derechos, por favor dirija un correo electrónico al encargado de Privacidad a: <strong>jgalvez@julmarspa.com</strong>.</p>
 
                         <h2 className="text-2xl font-bold text-julmar-dark mt-10 mb-4">9. Actualizaciones a esta Política</h2>
                         <p>Nos reservamos el derecho de modificar esta Política de Privacidad en cualquier momento para adaptarla a novedades legislativas o corporativas. Recomendamos visitar esta página periódicamente para informarse sobre cualquier cambio. La fecha de la última actualización siempre será visible en la parte superior del documento.</p>
