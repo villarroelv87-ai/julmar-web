@@ -3,7 +3,7 @@
 **Fecha de última actualización:** Junio 2026  
 **Empresa:** Maquinarias Julmar SpA  
 
-En **Maquinarias Julmar SpA** valoramos y respetamos la privacidad de nuestros clientes, proveedores y usuarios que visitan nuestro sitio web. La presente Política de Privacidad ha sido elaborada para informar de manera clara, transparente y directa sobre cómo recopilamos, utilizamos, protegemos y tratamos la información personal obtenida a través de nuestra plataforma web y canales de contacto.
+En **Maquinarias Julmar SpA** valoramos y respetamos la privacidad de nuestros clientes, proveedores y usuarios que visitan nuestro sitio web. La presente Política de Privacidad ha sido elaborada en estricto cumplimiento con la legislación chilena vigente, incluyendo la **Ley N° 21.719 sobre Protección de Datos Personales**, para informar de manera clara, transparente y directa sobre cómo recopilamos, utilizamos, protegemos y tratamos la información personal obtenida a través de nuestra plataforma web y canales de contacto.
 
 ---
 
@@ -52,14 +52,15 @@ Nuestro sitio web puede utilizar "cookies" (pequeños archivos de texto almacena
 ## 7. Retención de Datos
 La información recopilada será conservada únicamente durante el tiempo necesario para gestionar su cotización, mantener el registro histórico de operaciones comerciales para cumplir obligaciones legales y comerciales aplicables, o hasta que usted solicite su eliminación, tras lo cual será borrada de forma segura.
 
-## 8. Derechos del Titular de los Datos
-Usted, como titular de los datos personales, tiene derecho en todo momento a:
-- **Acceder** a los datos que poseemos sobre usted.
+## 8. Derechos del Titular de los Datos (Derechos ARCO y Portabilidad)
+En conformidad con la Ley N° 21.719, usted como titular de los datos personales tiene derecho en todo momento a:
+- **Acceder** a los datos que poseemos sobre usted y conocer los fines de su tratamiento.
 - **Rectificar** aquellos datos que sean inexactos o incompletos.
-- **Solicitar la eliminación** de sus datos de nuestros registros comerciales.
+- **Solicitar la cancelación o eliminación** de sus datos de nuestros registros comerciales.
 - **Oponerse** a ser contactado para fines específicos no relacionados directamente con una cotización activa.
+- **Portabilidad:** Solicitar una copia de sus datos personales en un formato estructurado y de uso común.
 
-Para ejercer cualquiera de estos derechos, por favor dirija un correo electrónico al encargado de Privacidad a: **jgalvez@julmarspa.com**.
+Para ejercer cualquiera de estos derechos, o si tiene dudas sobre el tratamiento de su información, por favor dirija un correo electrónico al encargado de Privacidad a: **jgalvez@julmarspa.com**.
 
 ## 9. Actualizaciones a esta Política
 Nos reservamos el derecho de modificar esta Política de Privacidad en cualquier momento para adaptarla a novedades legislativas o corporativas. Recomendamos visitar esta página periódicamente para informarse sobre cualquier cambio. La fecha de la última actualización siempre será visible en la parte superior del documento.
