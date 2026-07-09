@@ -102,21 +102,6 @@ export const machines = [
         description: "Distribución de agua potable o industrial.",
         seoDescription: "Arriendo de Camión Aljibe Renault C440 con estanque de 20.000 litros en Coquimbo, La Serena y Región de Atacama. Versátil para distribución de agua potable o industrial en faenas mineras, construcción y proyectos viales. Motor de 440 HP con excelente rendimiento en rutas largas y terrenos de mediana exigencia. Disponibilidad inmediata, flota certificada con revisiones técnicas al día.",
         image: "/machinery/renault-c440/main-v2.webp",
-        gallery: [
-            "/machinery/renault-c440/gallery-jun26-1.jpg",
-            "/machinery/renault-c440/gallery-jun26-2.jpg",
-            "/machinery/renault-c440/gallery-jun26-3.jpg",
-            "/machinery/renault-c440/gallery-jun26-4.jpg",
-            "/machinery/renault-c440/gallery-jun26-5.jpg",
-            "/machinery/renault-c440/gallery-jun26-6.jpg",
-            "/machinery/renault-c440/gallery-jun26-7.jpg",
-            "/machinery/renault-c440/gallery-jun26-8.jpg",
-            "/machinery/renault-c440/gallery-jun26-9.jpg",
-            "/machinery/renault-c440/gallery-jun26-10.jpg",
-            "/machinery/renault-c440/gallery-jun26-11.jpg",
-            "/machinery/renault-c440/gallery-jun26-12.jpg",
-            "/machinery/renault-c440/gallery-jun26-13.jpg"
-        ],
         specs: { "Potencia": "440 hp", "Capacidad Tanque": "20,000 L" }
     },
     {
@@ -181,5 +166,28 @@ export const machines = [
         ],
         features: ["Mayor eficiencia de combustible", "Sistemas de control optimizados"],
         specs: { "Potencia": "164 hp", "Peso Operativo": "22,000 kg" }
+    },
+    {
+        id: 15,
+        name: "Camión Aljibe Renault C440 (Nueva Flota)",
+        category: "Camiones Aljibe",
+        capacity: "Estanque 20.000 L | Potencia 440 HP",
+        description: "Distribución de agua potable o industrial.",
+        seoDescription: "Arriendo de Camión Aljibe Renault C440 con estanque de 20.000 litros en Coquimbo, La Serena y Región de Atacama. Versátil para distribución de agua potable o industrial en faenas mineras, construcción y proyectos viales. Motor de 440 HP con excelente rendimiento en rutas largas y terrenos de mediana exigencia. Disponibilidad inmediata, flota certificada con revisiones técnicas al día.",
+        image: "/machinery/renault-c440/gallery-jun26-1.jpg",
+        gallery: [
+            "/machinery/renault-c440/gallery-jun26-2.jpg",
+            "/machinery/renault-c440/gallery-jun26-3.jpg",
+            "/machinery/renault-c440/gallery-jun26-4.jpg",
+            "/machinery/renault-c440/gallery-jun26-6.jpg",
+            "/machinery/renault-c440/gallery-jun26-7.jpg",
+            "/machinery/renault-c440/gallery-jun26-8.jpg",
+            "/machinery/renault-c440/gallery-jun26-9.jpg",
+            "/machinery/renault-c440/gallery-jun26-10.jpg",
+            "/machinery/renault-c440/gallery-jun26-11.jpg",
+            "/machinery/renault-c440/gallery-jun26-12.jpg",
+            "/machinery/renault-c440/gallery-jun26-13.jpg"
+        ],
+        specs: { "Potencia": "440 hp", "Capacidad Tanque": "20,000 L" }
     }
 ];
