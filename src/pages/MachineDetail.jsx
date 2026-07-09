@@ -117,6 +117,7 @@ const MachineDetail = () => {
                         "offers": {
                             "@type": "Offer",
                             "url": `https://julmar.cl/flota/${slug}`,
+                            "price": "0",
                             "priceCurrency": "CLP",
                             "availability": "https://schema.org/InStock",
                             "seller": { "@type": "Organization", "name": "Maquinarias Julmar SpA", "url": "https://julmar.cl" }

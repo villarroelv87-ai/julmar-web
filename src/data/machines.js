@@ -13,7 +13,9 @@ export const machines = [
             "/machinery/jd-310l/gallery-2.webp",
             "/machinery/jd-310l/detail-1.webp",
             "/machinery/jd-310l/detail-2.webp",
-            "/machinery/jd-310l/detail-3.webp"
+            "/machinery/jd-310l/detail-3.webp",
+            "/machinery/jd-310l/gallery-jun26-1.jpg",
+            "/machinery/jd-310l/gallery-jun26-2.jpg"
         ],
         features: ["Brazo extensible", "Tracción 4x4"],
         specs: { "Potencia": "87 hp", "Peso Operativo": "6,770 kg" }
@@ -100,6 +102,21 @@ export const machines = [
         description: "Distribución de agua potable o industrial.",
         seoDescription: "Arriendo de Camión Aljibe Renault C440 con estanque de 20.000 litros en Coquimbo, La Serena y Región de Atacama. Versátil para distribución de agua potable o industrial en faenas mineras, construcción y proyectos viales. Motor de 440 HP con excelente rendimiento en rutas largas y terrenos de mediana exigencia. Disponibilidad inmediata, flota certificada con revisiones técnicas al día.",
         image: "/machinery/renault-c440/main-v2.webp",
+        gallery: [
+            "/machinery/renault-c440/gallery-jun26-1.jpg",
+            "/machinery/renault-c440/gallery-jun26-2.jpg",
+            "/machinery/renault-c440/gallery-jun26-3.jpg",
+            "/machinery/renault-c440/gallery-jun26-4.jpg",
+            "/machinery/renault-c440/gallery-jun26-5.jpg",
+            "/machinery/renault-c440/gallery-jun26-6.jpg",
+            "/machinery/renault-c440/gallery-jun26-7.jpg",
+            "/machinery/renault-c440/gallery-jun26-8.jpg",
+            "/machinery/renault-c440/gallery-jun26-9.jpg",
+            "/machinery/renault-c440/gallery-jun26-10.jpg",
+            "/machinery/renault-c440/gallery-jun26-11.jpg",
+            "/machinery/renault-c440/gallery-jun26-12.jpg",
+            "/machinery/renault-c440/gallery-jun26-13.jpg"
+        ],
         specs: { "Potencia": "440 hp", "Capacidad Tanque": "20,000 L" }
     },
     {
@@ -125,7 +142,11 @@ export const machines = [
         image: "/machinery/jd-744l/main-v2.webp",
         gallery: [
             "/machinery/jd-744l/detail-1-v2.webp",
-            "/machinery/jd-744l/detail-2-v2.webp"
+            "/machinery/jd-744l/detail-2-v2.webp",
+            "/machinery/jd-744l/gallery-jun26-1.jpg",
+            "/machinery/jd-744l/gallery-jun26-2.jpg",
+            "/machinery/jd-744l/gallery-jun26-3.jpg",
+            "/machinery/jd-744l/gallery-jun26-4.jpg"
         ],
         specs: { "Potencia": "315 hp", "Capacidad Balde": "4.5 m³" }
     },

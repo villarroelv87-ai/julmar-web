@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
@@ -71,6 +71,7 @@ const RetroexcavadoraLanding = () => {
                         areaServed: ['Coquimbo', 'La Serena', 'Ovalle', 'Copiapo', 'Vallenar', 'Region de Atacama'],
                         offers: {
                             '@type': 'Offer',
+                            price: '0',
                             priceCurrency: 'CLP',
                             availability: 'https://schema.org/InStock',
                             url: canonicalUrl

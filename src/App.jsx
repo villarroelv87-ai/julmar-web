@@ -6,7 +6,7 @@ import MixerFleet from './pages/MixerFleet';
 import LocalServicePage from './pages/LocalServicePage';
 import RetroexcavadoraLanding from './pages/RetroexcavadoraLanding';
 import Politica from './pages/Politica';
-import CookieBanner from './components/CookieBanner';
+import PrivacyConsent from './components/PrivacyConsent';
 import { Helmet } from 'react-helmet-async';
 
 function App() {
@@ -48,7 +48,7 @@ function App() {
       </a>
 
       {/* Global Cookie Consent Banner */}
-      <CookieBanner />
+      <PrivacyConsent />
     </div>
   );
 }
