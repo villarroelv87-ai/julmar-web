@@ -89,7 +89,12 @@ export const machines = [
         gallery: [
             "/machinery/jd-210g/gallery-1-final.webp",
             "/machinery/jd-210g/gallery-3.webp",
-            "/machinery/jd-210g/gallery-2.webp"
+            "/machinery/jd-210g/gallery-2.webp",
+            "/machinery/jd-210g/gallery-jun26-1.jpg",
+            "/machinery/jd-210g/gallery-jun26-2.jpg",
+            "/machinery/jd-210g/gallery-jun26-3.jpg",
+            "/machinery/jd-210g/gallery-jun26-4.jpg",
+            "/machinery/jd-210g/gallery-jun26-5.jpg"
         ],
         features: ["Modo de potencia Powerwise III", "Monitor LCD multilingüe"],
         specs: { "Potencia": "159 hp", "Peso Operativo": "22,000 kg" }
