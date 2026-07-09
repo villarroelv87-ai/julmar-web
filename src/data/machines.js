@@ -89,12 +89,7 @@ export const machines = [
         gallery: [
             "/machinery/jd-210g/gallery-1-final.webp",
             "/machinery/jd-210g/gallery-3.webp",
-            "/machinery/jd-210g/gallery-2.webp",
-            "/machinery/jd-210g/gallery-jun26-1.jpg",
-            "/machinery/jd-210g/gallery-jun26-2.jpg",
-            "/machinery/jd-210g/gallery-jun26-3.jpg",
-            "/machinery/jd-210g/gallery-jun26-4.jpg",
-            "/machinery/jd-210g/gallery-jun26-5.jpg"
+            "/machinery/jd-210g/gallery-2.webp"
         ],
         features: ["Modo de potencia Powerwise III", "Monitor LCD multilingüe"],
         specs: { "Potencia": "159 hp", "Peso Operativo": "22,000 kg" }
@@ -169,5 +164,22 @@ export const machines = [
         ],
         fit: "contain",
         specs: { "Compatibilidad": "20-25 Ton", "Aplicación": "Demolición" }
+    },
+    {
+        id: 14,
+        name: "Excavadora John Deere 210P",
+        category: "Excavadoras",
+        capacity: "Peso ~22 Ton | Potencia 164 hp",
+        description: "Excavación avanzada con tecnología de última generación.",
+        seoDescription: "Arriendo de Excavadora John Deere 210P en la Región de Coquimbo y Atacama. Con 164 hp y aproximadamente 22 toneladas de peso, la serie P ofrece máxima productividad, mayor eficiencia de combustible y tecnología avanzada para minería, movimiento de tierras y construcción pesada. Cabina de alto confort y sistemas de control optimizados. Cotiza con nosotros para arriendo inmediato.",
+        image: "/machinery/jd-210p/gallery-jun26-1.jpg",
+        gallery: [
+            "/machinery/jd-210p/gallery-jun26-2.jpg",
+            "/machinery/jd-210p/gallery-jun26-3.jpg",
+            "/machinery/jd-210p/gallery-jun26-4.jpg",
+            "/machinery/jd-210p/gallery-jun26-5.jpg"
+        ],
+        features: ["Mayor eficiencia de combustible", "Sistemas de control optimizados"],
+        specs: { "Potencia": "164 hp", "Peso Operativo": "22,000 kg" }
     }
 ];
