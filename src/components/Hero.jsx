@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import { Download } from 'lucide-react';
 
 const Hero = () => {
     return (
@@ -58,7 +59,7 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.6 }}
-                    className="flex flex-col sm:flex-row gap-4 justify-center"
+                    className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center"
                 >
                     <Link
                         to="/arriendo-retroexcavadora"
@@ -79,6 +80,16 @@ const Hero = () => {
                         className="inline-block bg-white/10 hover:bg-white/20 border border-white/30 text-white font-black px-8 py-4 rounded-xl text-sm uppercase tracking-widest transition-all backdrop-blur-sm"
                     >
                         Cotizar por WhatsApp
+                    </a>
+                    <a
+                        href="/Brochure_JulMar.pdf"
+                        download="Brochure_JulMar.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-center gap-2 bg-transparent hover:bg-julmar-green/20 border-2 border-julmar-green text-julmar-green font-black px-8 py-4 rounded-xl text-sm uppercase tracking-widest transition-all backdrop-blur-sm"
+                    >
+                        <Download size={18} />
+                        Descargar Brochure
                     </a>
                 </motion.div>
             </div>

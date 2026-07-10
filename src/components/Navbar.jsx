@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Phone } from 'lucide-react';
+import { Menu, X, Phone, Download } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate, useLocation, Link } from 'react-router-dom';
 
@@ -131,6 +131,16 @@ const Navbar = () => {
                             );
                         })}
 
+                        <a
+                            href="/Brochure_JulMar.pdf"
+                            download="Brochure_JulMar.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="border-2 border-julmar-green hover:bg-julmar-green/10 text-julmar-green px-6 py-2.5 rounded-full font-bold text-sm transition-all transform hover:scale-105 flex items-center gap-2"
+                        >
+                            <Download size={16} />
+                            BROCHURE
+                        </a>
                         <button
                             onClick={() => handleNavClick('contacto')}
                             className="bg-julmar-green hover:bg-julmar-green-light text-julmar-dark px-6 py-2.5 rounded-full font-bold text-sm transition-all transform hover:scale-105 shadow-lg flex items-center gap-2"
@@ -181,12 +191,22 @@ const Navbar = () => {
                                     </button>
                                 );
                             })}
-                            <div className="pt-4">
+                            <div className="pt-4 flex flex-col gap-3">
                                 <a
                                     href="tel:+56931052727"
                                     className="w-full bg-julmar-green text-julmar-dark text-center py-3 rounded-xl font-black uppercase tracking-wide block"
                                 >
                                     Llamar Ahora
+                                </a>
+                                <a
+                                    href="/Brochure_JulMar.pdf"
+                                    download="Brochure_JulMar.pdf"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="w-full border-2 border-julmar-green text-julmar-green text-center py-3 rounded-xl font-black uppercase tracking-wide flex items-center justify-center gap-2"
+                                >
+                                    <Download size={20} />
+                                    Descargar Brochure
                                 </a>
                             </div>
                         </div>
