@@ -94,16 +94,7 @@ export const machines = [
         features: ["Modo de potencia Powerwise III", "Monitor LCD multilingüe"],
         specs: { "Potencia": "159 hp", "Peso Operativo": "22,000 kg" }
     },
-    {
-        id: 10,
-        name: "Camión Aljibe Renault C440",
-        category: "Camiones Aljibe",
-        capacity: "Estanque 20.000 L | Potencia 440 HP",
-        description: "Distribución de agua potable o industrial.",
-        seoDescription: "Arriendo de Camión Aljibe Renault C440 con estanque de 20.000 litros en Coquimbo, La Serena y Región de Atacama. Versátil para distribución de agua potable o industrial en faenas mineras, construcción y proyectos viales. Motor de 440 HP con excelente rendimiento en rutas largas y terrenos de mediana exigencia. Disponibilidad inmediata, flota certificada con revisiones técnicas al día.",
-        image: "/machinery/renault-c440/main-v2.webp",
-        specs: { "Potencia": "440 hp", "Capacidad Tanque": "20,000 L" }
-    },
+
     {
         id: 11,
         name: "Cargador Frontal Caterpillar 962L",
@@ -169,7 +160,7 @@ export const machines = [
     },
     {
         id: 15,
-        name: "Camión Aljibe Renault C440 (Nueva Flota)",
+        name: "Camión Aljibe Renault C440",
         category: "Camiones Aljibe",
         capacity: "Estanque 20.000 L | Potencia 440 HP",
         description: "Distribución de agua potable o industrial.",
