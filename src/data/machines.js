@@ -17,8 +17,19 @@ export const machines = [
             "/machinery/jd-310l/gallery-jun26-1.jpg",
             "/machinery/jd-310l/gallery-jun26-2.jpg"
         ],
-        features: ["Brazo extensible", "Tracción 4x4"],
-        specs: { "Potencia": "87 hp", "Peso Operativo": "6,770 kg" }
+        features: [
+            "Motor PowerTech™ Plus de 4.5L (93 hp)",
+            "Tracción 4x4",
+            "Brazo extensible",
+            "Transmisión PowerShift™ con inversor"
+        ],
+        specs: { 
+            "Motor": "PowerTech™ Plus 4.5L",
+            "Potencia": "93 hp", 
+            "Peso Operativo": "6.650 kg",
+            "Prof. Excavación": "4.30 - 5.43 m",
+            "Cap. Balde": "0.77 m³" 
+        }
     },
     {
         id: 6,
@@ -31,8 +42,19 @@ export const machines = [
         gallery: [
             "/machinery/jd-310p/detail-site-v2.webp"
         ],
-        features: ["Control de precisión", "Mayor capacidad de levante"],
-        specs: { "Potencia": "99 hp", "Peso Operativo": "7,100 kg" }
+        features: [
+            "Motor PowerTech™ de 4.5L (100 hp)",
+            "Transmisión PowerShift™",
+            "Sistema hidráulico de centro abierto",
+            "Tracción MFWD con deslizamiento limitado"
+        ],
+        specs: { 
+            "Motor": "PowerTech™ 4.5L",
+            "Potencia": "100 hp", 
+            "Peso Operativo": "7.356 kg",
+            "Prof. Excavación": "4.30 m",
+            "Altura Carga": "3.48 m"
+        }
     },
     {
         id: 5,
@@ -45,8 +67,20 @@ export const machines = [
         gallery: [
             "/machinery/renault-k480/detail-1-new.webp"
         ],
-        features: ["Tracción 8x4 para terrenos difíciles", "Sistema de riego automatizado"],
-        specs: { "Potencia": "480 hp", "Capacidad Tanque": "30,000 L" }
+        features: [
+            "Motor DTI 13 de 13 litros (480 hp)",
+            "Tracción 8x4 para terrenos difíciles",
+            "Transmisión automatizada Optidriver",
+            "Sistema de riego automatizado",
+            "Frenos EBS, ABS y Optibrake+"
+        ],
+        specs: { 
+            "Motor": "DTI 13 (13.0L)",
+            "Potencia": "480 hp",
+            "Torque": "2.400 Nm",
+            "Capacidad Tanque": "30.000 L",
+            "Tracción": "8x4"
+        }
     },
     {
         id: 7,
@@ -59,8 +93,20 @@ export const machines = [
         gallery: [
             "/machinery/renault-k460/main-user-new.webp"
         ],
-        features: ["Tracción 6x4", "Barras de riego traseras"],
-        specs: { "Potencia": "460 hp", "Capacidad Tanque": "20,000 L" }
+        features: [
+            "Motor DTI 11 de 11 litros (460 hp)",
+            "Tracción 6x4",
+            "Transmisión Optidriver de 12 marchas",
+            "Barras de riego traseras",
+            "Frenos EBS y ABS"
+        ],
+        specs: { 
+            "Motor": "DTI 11 (11.0L)",
+            "Potencia": "460 hp", 
+            "Torque": "2.200 Nm",
+            "Capacidad Tanque": "20.000 L",
+            "Tracción": "6x4"
+        }
     },
     {
         id: 8,
@@ -75,8 +121,19 @@ export const machines = [
             "/machinery/komatsu-pc210lc/gallery-1.webp",
             "/machinery/komatsu-pc210lc/gallery-2.webp"
         ],
-        features: ["Bajo consumo de combustible", "Cabina ROPS/FOPS"],
-        specs: { "Peso Operativo": "22,000 kg", "Capacidad Balde": "1.2 m³" }
+        features: [
+            "Motor Komatsu SAA6D107E-3 (165 hp)",
+            "Sistema hidráulico avanzado HydrauMind",
+            "Bajo consumo de combustible (6-7% de ahorro)",
+            "Cabina ROPS/FOPS con amortiguación"
+        ],
+        specs: { 
+            "Motor": "Komatsu SAA6D107E-3",
+            "Potencia": "165 hp",
+            "Peso Operativo": "22.100 - 24.440 kg", 
+            "Capacidad Balde": "Hasta 1.68 m³",
+            "Prof. Excavación": "6.62 m"
+        }
     },
     {
         id: 9,
@@ -91,22 +148,45 @@ export const machines = [
             "/machinery/jd-210g/gallery-3.webp",
             "/machinery/jd-210g/gallery-2.webp"
         ],
-        features: ["Modo de potencia Powerwise III", "Monitor LCD multilingüe"],
-        specs: { "Potencia": "159 hp", "Peso Operativo": "22,000 kg" }
+        features: [
+            "Motor PowerTech™ PVS de 6.8L (159 hp)",
+            "Sistema de eficiencia PowerWise III",
+            "Monitor LCD multilingüe",
+            "Bombas hidráulicas duales (212 L/min c/u)"
+        ],
+        specs: { 
+            "Motor": "PowerTech™ PVS 6.8L",
+            "Potencia": "159 hp", 
+            "Peso Operativo": "22.910 kg",
+            "Prof. Excavación": "6.68 m",
+            "Alcance Máx.": "9.75 m"
+        }
     },
 
     {
         id: 11,
         name: "Cargador Frontal Caterpillar 962L",
         category: "Cargadores",
-        capacity: "Balde 4.4 m³ | Potencia ~250 hp",
-        description: "Carga de alto rendimiento y eficiencia de combustible.",
-        seoDescription: "Arriendo de Cargador Frontal Caterpillar 962L en Coquimbo, La Serena y Región de Atacama. Con balde de 4.4 m³ y aproximadamente 250 hp, es la opción ideal para carga y traslado de materiales en minería, construcción y movimiento de tierras de gran escala. Alta eficiencia de combustible y capacidad de trabajo continuo. Flota certificada con operador disponible. Cotiza sin compromiso.",
+        capacity: "Balde 4.4 m³ | Potencia 252 hp",
+        description: "Máxima productividad y alta eficiencia de combustible para movimientos de tierra a gran escala.",
+        seoDescription: "Arriendo de Cargador Frontal Caterpillar 962L en Coquimbo, La Serena y Región de Atacama. Equipado con un motor Cat C7.1 ACERT, entrega una potencia neta de 252 hp y un torque de 1.050 Nm. Destaca por su alta eficiencia de combustible, transmisión Powershift (5F/3R) y sistema hidráulico Load-Sensing. Con un peso operativo de más de 19 toneladas y balde de 4.4 m³, es la opción ideal para carga y traslado de materiales en minería y construcción. Flota certificada con operador disponible.",
         image: "/machinery/cat-962l/main-user.webp",
         gallery: [
             "/machinery/cat-962l/side-user.webp"
         ],
-        specs: { "Potencia": "250 hp", "Capacidad Balde": "4.4 m³" }
+        features: [
+            "Motor Cat C7.1 ACERT (252 hp)",
+            "Sistema hidráulico Load-Sensing",
+            "Transmisión Powershift (5F/3R)",
+            "Sistema de frenado integrado (IBS)"
+        ],
+        specs: { 
+            "Motor": "Cat C7.1 ACERT", 
+            "Potencia": "252 hp", 
+            "Peso Operativo": "19.123 kg", 
+            "Torque Máx.": "1.050 Nm", 
+            "Cap. Balde": "4.4 m³" 
+        }
     },
     {
         id: 12,
@@ -124,7 +204,19 @@ export const machines = [
             "/machinery/jd-744l/gallery-jun26-3.jpg",
             "/machinery/jd-744l/gallery-jun26-4.jpg"
         ],
-        specs: { "Potencia": "315 hp", "Capacidad Balde": "4.5 m³" }
+        features: [
+            "Motor John Deere JD9 PSS de 9.0L (316 hp)",
+            "Transmisión PowerShift",
+            "Bomba de pistón axial (484.5 L/min)",
+            "Alta productividad y ciclos rápidos"
+        ],
+        specs: { 
+            "Motor": "JD9 PSS 9.0L",
+            "Potencia": "316 hp", 
+            "Peso Operativo": "24.900 kg",
+            "Cap. Balde": "4.0 m³",
+            "Tanque Comb.": "477 L"
+        }
     },
     {
         id: 13,
@@ -139,7 +231,18 @@ export const machines = [
             "/machinery/attachments/gallery-2.webp"
         ],
         fit: "contain",
-        specs: { "Compatibilidad": "20-25 Ton", "Aplicación": "Demolición" }
+        features: [
+            "Compatible con excavadoras de 20-25 Ton",
+            "Alta energía de impacto para roca y concreto",
+            "Diseño de carcasa insonorizada",
+            "Válvula de control de alta eficiencia"
+        ],
+        specs: { 
+            "Clase Exc.": "20-25 Ton", 
+            "Peso Operativo": "Aprox. 1.700 kg",
+            "Caudal Aceite": "120-180 L/min",
+            "Aplicación": "Demolición/Minería"
+        }
     },
     {
         id: 14,
@@ -155,8 +258,19 @@ export const machines = [
             "/machinery/jd-210p/gallery-jun26-4.jpg",
             "/machinery/jd-210p/gallery-jun26-5.jpg"
         ],
-        features: ["Mayor eficiencia de combustible", "Sistemas de control optimizados"],
-        specs: { "Potencia": "164 hp", "Peso Operativo": "22,000 kg" }
+        features: [
+            "Motor PowerTech™ 6.8L (159 hp)",
+            "Sistema SmartGrade™ 2D/3D disponible",
+            "Modos de trabajo: Dig, Lift, Eco",
+            "Pantalla táctil G5 Plus de 12.8\""
+        ],
+        specs: { 
+            "Motor": "PowerTech™ 6.8L",
+            "Potencia": "159 hp", 
+            "Peso Operativo": "23.560 kg",
+            "Prof. Excavación": "6.67 m",
+            "Alcance Máx.": "9.86 m"
+        }
     },
     {
         id: 15,
@@ -179,7 +293,18 @@ export const machines = [
             "/machinery/renault-c440/gallery-jun26-12.jpg",
             "/machinery/renault-c440/gallery-jun26-13.jpg"
         ],
-        specs: { "Potencia": "440 hp", "Capacidad Tanque": "20,000 L" }
+        features: [
+            "Motor de alto rendimiento (440 hp)",
+            "Transmisión automatizada Optidriver",
+            "Chasis reforzado para faenas",
+            "Estanque de 20.000 L"
+        ],
+        specs: { 
+            "Potencia": "440 hp",
+            "Transmisión": "Optidriver",
+            "Capacidad Tanque": "20.000 L",
+            "Tracción": "6x4 / 8x4"
+        }
     },
     {
         id: 16,
