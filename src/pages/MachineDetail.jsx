@@ -6,6 +6,7 @@ import { ChevronLeft, ChevronRight, Home, Phone, Mail, CheckCircle2 } from 'luci
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Contact from '../components/Contact';
+import RelatedMachines from '../components/RelatedMachines';
 import { machines } from '../data/machines';
 import { slugify } from '../utils/stringUtils';
 
@@ -282,6 +283,11 @@ const MachineDetail = () => {
                     </div>
                 </div>
             </main>
+
+            {/* Slider de Flota Relacionada */}
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <RelatedMachines currentMachineId={machine.id} />
+            </div>
 
             {/* Re-use Contact Component (It handles its own display, we just pass preselected props) */}
             <Contact preselectedMachine={machine.name} />
