@@ -165,14 +165,14 @@ export const machines = [
         capacity: "Estanque 20.000 L | Potencia 440 HP",
         description: "Distribución de agua potable o industrial.",
         seoDescription: "Arriendo de Camión Aljibe Renault C440 con estanque de 20.000 litros en Coquimbo, La Serena y Región de Atacama. Versátil para distribución de agua potable o industrial en faenas mineras, construcción y proyectos viales. Motor de 440 HP con excelente rendimiento en rutas largas y terrenos de mediana exigencia. Disponibilidad inmediata, flota certificada con revisiones técnicas al día.",
-        image: "/machinery/renault-c440/gallery-jun26-1.jpg",
+        image: "/machinery/renault-c440/gallery-jun26-8.jpg",
         gallery: [
             "/machinery/renault-c440/gallery-jun26-2.jpg",
             "/machinery/renault-c440/gallery-jun26-3.jpg",
             "/machinery/renault-c440/gallery-jun26-4.jpg",
             "/machinery/renault-c440/gallery-jun26-6.jpg",
             "/machinery/renault-c440/gallery-jun26-7.jpg",
-            "/machinery/renault-c440/gallery-jun26-8.jpg",
+            "/machinery/renault-c440/gallery-jun26-1.jpg",
             "/machinery/renault-c440/gallery-jun26-9.jpg",
             "/machinery/renault-c440/gallery-jun26-10.jpg",
             "/machinery/renault-c440/gallery-jun26-11.jpg",
@@ -180,5 +180,95 @@ export const machines = [
             "/machinery/renault-c440/gallery-jun26-13.jpg"
         ],
         specs: { "Potencia": "440 hp", "Capacidad Tanque": "20,000 L" }
+    },
+    {
+        id: 16,
+        name: "Semirremolque Cama Baja Cuello Desmontable Goren",
+        category: "Semirremolques",
+        capacity: "Carga 50 Tons | Largo Útil 7m",
+        description: "Transporte seguro y eficiente de maquinaria pesada y equipos sobredimensionados.",
+        seoDescription: "Arriendo de Semirremolque Cama Baja Cuello Desmontable Goren 2026 en Coquimbo, La Serena y Región de Atacama. Capacidad de carga de 50 toneladas, cama útil de 7 metros y aletas de extensión lateral hasta 3.2m. Ideal para transporte seguro de maquinaria pesada. Cuenta con cuello articulado de 5 posiciones, conexión neumática central y frenos ABS Wabco para máxima seguridad en ruta. Disponibilidad inmediata.",
+        image: "/machinery/cama-baja/gallery-1.jpeg",
+        gallery: [
+            "/machinery/cama-baja/main.jpeg",
+            "/machinery/cama-baja/gallery-2.jpeg",
+            "/machinery/cama-baja/gallery-3.jpeg",
+            "/machinery/cama-baja/gallery-4.jpeg"
+        ],
+        features: [
+            "Cuello articulado de 5 posiciones", 
+            "Tercer eje con levante neumático",
+            "Aletas de extensión lateral", 
+            "Piso de madera dura especial",
+            "Frenos ABS Wabco"
+        ],
+        specs: { 
+            "Modelo": "SRCBCD21M50726",
+            "Capacidad": "50 Tons", 
+            "Largo Útil": "7 metros", 
+            "Ancho": "2.6m (ext. a 3.2m)",
+            "Ejes": "3 (1 con levante)",
+            "Llantas": "13 (8.25x22.5\")"
+        }
+    },
+    {
+        id: 17,
+        name: "Semirremolque Rampla Plana Goren SR 3M3013.5",
+        category: "Semirremolques",
+        capacity: "Carga 30 Tons | Largo 13.5m",
+        description: "Transporte de carga general y materiales de construcción con máxima seguridad.",
+        seoDescription: "Arriendo de Semirremolque Rampla Plana Goren SR 3M3013.5 año 2026. Capacidad de carga de 30 toneladas y 13.5 metros de largo. Equipada con piso metálico diamantado, barandas metálicas abatibles de 50cm, frenos ABS Wabco y focos LED. Suspensión mecánica de tres ejes con levante neumático. Ideal para transporte seguro y eficiente de carga general y materiales de construcción en proyectos viales y mineros.",
+        image: "/machinery/rampla-plana/gallery-3.jpeg",
+        gallery: [
+            "/machinery/rampla-plana/gallery-1.jpeg",
+            "/machinery/rampla-plana/gallery-2.jpeg",
+            "/machinery/rampla-plana/main.jpeg",
+            "/machinery/rampla-plana/gallery-4.jpeg",
+            "/machinery/rampla-plana/gallery-5.jpeg"
+        ],
+        features: [
+            "Barandas metálicas abatibles de 50cm", 
+            "Primer eje con levante neumático",
+            "Piso metálico diamantado",
+            "Protecciones laterales (aluminio)",
+            "Frenos ABS Wabco"
+        ],
+        specs: { 
+            "Modelo": "SR 3M3013.5",
+            "Capacidad": "30 Tons", 
+            "Largo": "13.5 metros",
+            "Ejes": "3 (primero neumático)",
+            "Piñas": "12",
+            "Llantas": "13 (22.5\")"
+        }
+    },
+    {
+        id: 18,
+        name: "Motoniveladora John Deere 670G",
+        category: "Motoniveladoras",
+        capacity: "Peso 19.1 Ton | Potencia 235 hp",
+        description: "Alta precisión y rendimiento excepcional en nivelación de terrenos.",
+        seoDescription: "Arriendo de Motoniveladora John Deere 670G en la Región de Coquimbo y Atacama. Equipada con motor PowerTech™ Plus de 9.0 litros, ofrece una potencia neta de 235 hp y un torque de 1.225 Nm. Su transmisión PowerShift Plus™ de 8 marchas permite maniobras rápidas, y su sistema hidráulico de bomba axial garantiza cortes de alta precisión. Con un peso operativo de hasta 19.152 kg, esta motoniveladora es ideal para minería y proyectos viales. Cabina ROPS presurizada disponible con operador certificado.",
+        image: "/machinery/motoniveladora-jd670g/gallery-1.jpeg",
+        gallery: [
+            "/machinery/motoniveladora-jd670g/main.jpeg",
+            "/machinery/motoniveladora-jd670g/gallery-2.jpeg",
+            "/machinery/motoniveladora-jd670g/gallery-3.jpeg",
+            "/machinery/motoniveladora-jd670g/gallery-4.jpeg",
+            "/machinery/motoniveladora-jd670g/gallery-5.jpeg",
+            "/machinery/motoniveladora-jd670g/gallery-6.jpeg"
+        ],
+        features: [
+            "Motor PowerTech™ Plus 9.0L (235 hp)",
+            "Transmisión PowerShift Plus™",
+            "Sistema hidráulico de pistón axial"
+        ],
+        specs: { 
+            "Motor": "PowerTech™ 9.0 L", 
+            "Potencia": "235 hp", 
+            "Peso Máx.": "19.152 kg", 
+            "Torque": "1.225 Nm", 
+            "Combustible": "397 L" 
+        }
     }
 ];
