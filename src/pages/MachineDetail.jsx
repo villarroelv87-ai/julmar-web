@@ -15,6 +15,7 @@ const MachineDetail = () => {
     const location = useLocation();
     const [machine, setMachine] = useState(null);
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const brandList = ['John Deere', 'Caterpillar', 'Cat', 'Renault', 'Komatsu', 'Goren'];
 
     useEffect(() => {
         window.scrollTo(0, 0); // Start at top
@@ -111,7 +112,8 @@ const MachineDetail = () => {
                             `https://julmar.cl${machine.image}`,
                             ...(machine.gallery ? machine.gallery.map(img => `https://julmar.cl${img}`) : [])
                         ],
-                        "brand": { "@type": "Brand", "name": machine.name.split(' ').slice(0, 2).join(' ') },
+                        "category": machine.category,
+                        "brand": { "@type": "Brand", "name": brandList.find(b => machine.name.includes(b)) || "Genérico" },
                         "additionalProperty": machine.specs
                             ? Object.entries(machine.specs).map(([key, value]) => ({ "@type": "PropertyValue", "name": key, "value": String(value) }))
                             : [],

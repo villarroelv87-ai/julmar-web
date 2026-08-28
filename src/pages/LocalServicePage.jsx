@@ -57,7 +57,12 @@ const LocalServicePage = () => {
                                 "addressLocality": location.name,
                                 "addressRegion": location.region,
                                 "addressCountry": "CL"
-                            }
+                            },
+                            "telephone": "+56931052727",
+                            "url": "https://julmar.cl",
+                            "sameAs": [
+                                "https://www.instagram.com/maquinarias_julmar_spa/"
+                            ]
                         },
                         "areaServed": {
                             "@type": "City",
@@ -102,6 +107,10 @@ const LocalServicePage = () => {
                     <h1 className="text-4xl md:text-6xl font-black text-white mb-6 leading-tight max-w-4xl mx-auto">
                         {service.name} en <span className="text-julmar-green">{location.name}</span>
                     </h1>
+                    
+                    {/* H2 semántico para AI Overviews / GEO citability */}
+                    <h2 className="sr-only">Servicio Especializado de {service.name} para la Gran Minería y Construcción en {location.name} con Certificación SICEP</h2>
+
                     <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-10 leading-relaxed">
                         {service.description} Disponibilidad operativa inmediata para proyectos en la zona de {location.name}.
                     </p>

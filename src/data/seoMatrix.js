@@ -37,6 +37,20 @@ export const seoServices = [
         description: "Equipos de carga frontal para acopio, abastecimiento de chancadoras y manejo de graneles.",
         machineType: "Cargadores",
         imageUrl: "/machinery/cat-962l/main-user.webp"
+    },
+    {
+        name: "Arriendo de Semirremolques Cama Baja",
+        slug: "arriendo-cama-baja",
+        description: "Transporte seguro de maquinaria pesada y equipos sobredimensionados con semirremolques de cuello desmontable y alta capacidad de carga.",
+        machineType: "Semirremolques",
+        imageUrl: "/machinery/cama-baja/main.jpeg"
+    },
+    {
+        name: "Arriendo de Semirremolques Rampla Plana",
+        slug: "arriendo-rampla-plana",
+        description: "Semirremolques rampla plana ideales para el transporte de carga general y materiales de construcción de gran envergadura en minería y obras civiles.",
+        machineType: "Semirremolques",
+        imageUrl: "/machinery/rampla-plana/main.jpeg"
     }
 ];
 
