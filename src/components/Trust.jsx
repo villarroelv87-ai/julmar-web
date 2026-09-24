@@ -18,14 +18,14 @@ const Trust = () => {
                             JulMar SPA es una empresa familiar ubicada en la cuarta región, dedicada al alquiler de camiones y maquinaria para empresas en los sectores de vialidad, minería y agropecuario.
                         </p>
                         <p>
-                            Con una trayectoria de 5 años en el rubro, nuestro compromiso radica en situar al cliente en el centro de nuestras operaciones, brindándole una atención ágil y personalizada. Nos esforzamos por proporcionar equipos de calidad que satisfagan las necesidades de nuestros clientes, manteniendo un enfoque ágil tanto en el cumplimiento de plazos como en la gestión de costos.
+                            Con una trayectoria de más de 10 años en el rubro, nuestro compromiso radica en situar al cliente en el centro de nuestras operaciones, brindándole una atención ágil y personalizada. Nos esforzamos por proporcionar equipos de calidad que satisfagan las necesidades de nuestros clientes, manteniendo un enfoque ágil tanto en el cumplimiento de plazos como en la gestión de costos.
                         </p>
                     </div>
 
                     {/* Stats / Counters */}
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto border-t border-gray-800 pt-8">
                         <div>
-                            <span className="block text-4xl md:text-5xl font-black text-julmar-green mb-1">+5</span>
+                            <span className="block text-4xl md:text-5xl font-black text-julmar-green mb-1">+10</span>
                             <span className="text-gray-400 text-sm font-bold uppercase tracking-wider">Años Exp.</span>
                         </div>
                         <div>

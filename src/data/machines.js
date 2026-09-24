@@ -313,12 +313,12 @@ export const machines = [
         capacity: "Carga 50 Tons | Largo Útil 7m",
         description: "Transporte seguro y eficiente de maquinaria pesada y equipos sobredimensionados.",
         seoDescription: "Arriendo de Semirremolque Cama Baja Cuello Desmontable Goren 2026 en Coquimbo, La Serena y Región de Atacama. Capacidad de carga de 50 toneladas, cama útil de 7 metros y aletas de extensión lateral hasta 3.2m. Ideal para transporte seguro de maquinaria pesada. Cuenta con cuello articulado de 5 posiciones, conexión neumática central y frenos ABS Wabco para máxima seguridad en ruta. Disponibilidad inmediata.",
-        image: "/machinery/cama-baja/gallery-1.jpeg",
+        image: "/machinery/cama-baja/gallery-4.jpeg",
         gallery: [
+            "/machinery/cama-baja/gallery-4.jpeg",
             "/machinery/cama-baja/main.jpeg",
             "/machinery/cama-baja/gallery-2.jpeg",
-            "/machinery/cama-baja/gallery-3.jpeg",
-            "/machinery/cama-baja/gallery-4.jpeg"
+            "/machinery/cama-baja/gallery-3.jpeg"
         ],
         features: [
             "Cuello articulado de 5 posiciones", 
